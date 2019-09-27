@@ -1,7 +1,7 @@
 def reverse_each_word(string)
- string.split.collect{|word| word.reverse}
+ string.split.collect{|word| word.reverse}.join
 end
 
 def reverse_each_word(string)
-  string.split.each{|words| words.reverse} 
+  string.split.each{|words| words.reverse},join 
 end
